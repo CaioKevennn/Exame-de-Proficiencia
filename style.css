@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font: 3rem 'Kaushan Script', cursive;
+    color: #00BCD4;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+.h2_size{
+    font-size: 1.2em;
+
+}
+p{
+    color: #777;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 40px;
+}
+article{
+    padding: 20px;
+    font: 1.2rem 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#00BCD4 ;
+    align-items: center;
+    font: 1.2rem 'Roboto', sans-serif;
+    padding: 8px;
+}
+.container_logo{
+    background-image: url("./img/moto-de-trilha1.png");
+    width: 100px; 
+    height: 50px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.linka{
+    padding: 9px;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #fff;
+}
+.linka:hover{
+    color: #3F51B5;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+
+}
+.container_titulo{
+    width: 50%;
+    text-align: justify;
+}
+.botao {
+    background-color: rgba(0, 188, 212, 0.8);; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    width: 200px;
+    align-items: center;
+    display: block;
+    margin: 0 AUTO;
+  }
+  .texto_botao{
+    color: #eee;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+  }
+.img_t{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.img_quadrada{
+    border-radius: 0%;
+    width: fit-content;
+}
+.img_margin{
+    margin-left: 100px;
+
+}
+.container_produto{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff ;
+    align-items: center;
+    font: 1.2rem 'Roboto', sans-serif;
+}
+.container_produto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_img_produto,.container_texto_produto{
+    padding: 10px;
+    width: 50%;
+    
+}
+.img_t2{
+    margin-left: 150px;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+@media (max-width: 390px) and (max-height: 844px) {
+    img{
+        width: 100px;
+    }
+}
+  
+  
